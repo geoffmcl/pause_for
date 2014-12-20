@@ -1,4 +1,4 @@
-* CONSOLE APPLICATION : pause_for Project Overview
+# CONSOLE APPLICATION : pause_for Project Overview
 
 A simple Windows ONLY application to 'pause' for the number of 
 seconds given on the command line.
