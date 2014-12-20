@@ -15,10 +15,14 @@ Install the resultant EXE in a directory in your PATH
 Original app was created by MSVC10 AppWizard...
 
 Files:  
-pause_for.cpp  
-    This is the main application source file.
+README.md          - This file  
+CMakeLists.txt     - CMake build generator  
+src/pause_for.cpp  - This is the main application source file.  
+src/pause_for.h    - This is the main application header file.  
+build/build-me.bat - Easy build batch file  
+build/upd-exe.bat  - Copy exe to a directory in PATH  
 
-pause_for.h  
-    This is the main application header file.
+Have fun  
+Geoff.
 
 ; eof
