@@ -25,6 +25,10 @@
 @goto END
 
 :DOCOPY
+@echo.
+@echo Files %TMPSRC% and %TMPFIL% different... proceed to update...
+@echo.
+@pause
 
 copy %TMPSRC% %TMPFIL%
 

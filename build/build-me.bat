@@ -17,7 +17,7 @@
 @REM Just a check if MSVC IDE is running... cna be ignored, removed...
 @call chkmsvc %TMPPRJ%
 
-@echo Begin %TIME% > %TMPLOG%
+@echo Begin %TMPPRJ% %DATE% %TIME% > %TMPLOG%
 
 @echo Doing: 'cmake %TMPSRC% %TMPOPTS%' output to %TMPLOG%
 @echo Doing: 'cmake %TMPSRC% %TMPOPTS%' >>%TMPLOG%
